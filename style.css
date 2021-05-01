@@ -65,3 +65,79 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+    padding-left: 3%;
+  }
+
+  .box {
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .box1 {
+    background-position: center;
+  }
+
+  .box2 {
+    background-position: left bottom 15%;
+  }
+
+  .box3 {
+    background-position: left bottom 12%;
+  }
+
+  .title-name {
+    font-size: 20px;
+  }
+
+  .sentence {
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  main {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+    padding-left: 0;
+  }
+
+  .box {
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .box1 {
+    background-size: 400px;
+    background-position: left bottom;
+  }
+
+  .box2 {
+    background-size: 400px;
+  }
+
+  .box3 {
+    background-size: 400px;
+    background-position: left bottom;
+  }
+
+  .step {
+    padding: 1px;
+  }
+
+  .title-name {
+    font-size: 20px;
+  }
+
+  .sentence {
+    font-size: 12.5px;
+  }
+}
